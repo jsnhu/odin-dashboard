@@ -37,7 +37,7 @@ body {
     grid-template-rows: 1fr 1fr;
 }
 
-.body {
+.content {
     grid-area: c;
     background-color: beige;
 }
@@ -179,3 +179,4 @@ body {
     align-items: center;
     justify-items: center;
 }
+
