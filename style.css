@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-areas:
+                    "a b"
+                    "a c";
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.sidebar {
+    grid-area: a;
+    background-color: darkgrey;
+}
+
+.header {
+    grid-area: b;
+    background-color: darkorange;
+}
+
+.body {
+    grid-area: c;
+    background-color: beige;
+}
