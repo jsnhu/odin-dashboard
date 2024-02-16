@@ -212,7 +212,8 @@ body {
 
 .project-card {
     height: 200px;
-    background-color: #bbb;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgb(100, 100, 100);
     border-radius: 10px;
     border-left: 6px solid orange;
     padding: 5px;
@@ -236,8 +237,6 @@ body {
 
 .card-star {
     grid-column: 2 / 3;
-    /* grid-column-start: 2; */
-    /* grid-column-end: 3; */
 }
 
 .card-visibility {
@@ -249,10 +248,5 @@ body {
 }
 
 .card-text {
-    /* text-overflow: ellipsis; */
-    /* overflow: scroll; */
-    /* white-space: nowrap; */
     overflow: hidden;
-    background: #777;
-    /* block-overflow */
 }
